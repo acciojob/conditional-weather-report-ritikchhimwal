@@ -11,8 +11,8 @@ const WeatherDisplay = ({ weather }) => {
 
   return (
     <div>
-      <span style={temperatureStyle}>Temperature: {temperature}°C</span>
-      <span> Conditions: {conditions}</span>
+      <p style={temperatureStyle}>Temperature: {temperature}°C</p>
+      <p>Conditions: {conditions}</p>
     </div>
   );
 };
